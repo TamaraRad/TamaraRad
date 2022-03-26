@@ -37,6 +37,12 @@ h3 {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+flex: 1 1 auto;
 }
 
 .header {
@@ -77,8 +83,7 @@ h3 {
 
 .about__info {
   padding-right: 13.5%;
-  margin-top: 228px;
-  margin-bottom: 40px;
+
 }
 
 .about__desc {
@@ -192,7 +197,7 @@ margin-bottom: 11px;
     width: 100%;
     margin-right: 0;
     margin-top: 17px;
-    font-size: 18px;
+    padding: 12px 20px 22px;
   }
 }
 
@@ -283,3 +288,89 @@ margin-bottom: 11px;
     overflow: hidden;
   }
 }
+.blog__title {
+
+}
+
+.blog__article {
+  border-bottom: 1px solid #E0E0E0 ;
+  margin-top: 55px;
+}
+
+.blog__subtitle {
+color: #000000;
+font-size: 30px;
+margin-bottom: 16px;
+margin-top: 32px;
+font-weight: 500;
+}
+
+.blog__info {
+  font-size: 20px;
+  color: #21243D;
+  margin-bottom: 15px;
+}
+
+.blog__info--grey {
+  font-size: 20px;
+  color: #8695A4;
+  margin-left: 20px;
+}
+
+.blog__separator {
+  margin-left: 25px;
+}
+
+.blog__text {
+  margin-bottom: 29px;
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 51px 0px 54px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  margin-right: 35px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.social__item:last-child {
+margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0;
+}
+
+.vk {
+  background-image: url(../img/vk.png);
+}
+
+.ok {
+  background-image: url(../img/ok.png);
+}
+
+.github {
+  background-image: url(../img/github.png) ;
+}
+
+.telegram {
+  background-image: url(../img/telegram.png);
+}
+
